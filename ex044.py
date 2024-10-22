@@ -11,7 +11,6 @@ print('''FORMAS DE PAGAMENTO
 [3] 2x no CARTÃO
 [4] 3x ou mais no CARTÃO''')
 formapgto = int(input("Qual é a forma de pagamento? "))
-# parcelas = int(input("Quantas parcelas? "))
 if formapgto == 1:
     total = compras - (compras * 10 / 100)    
 elif formapgto == 2:
