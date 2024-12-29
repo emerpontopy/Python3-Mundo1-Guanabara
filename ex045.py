@@ -2,7 +2,7 @@
 import random
 from time import sleep
 itens = ('Pedra', 'Papel', 'Tesoura')
-computador = random.randint(0,2)
+computador = random.randint(0,3) #precisei editar aqui pois não estava seguindo o 'stop+1' do método
 print('''Escolha sua opção:
       [ 0 ] PEDRA
       [ 1 ] PAPEL
